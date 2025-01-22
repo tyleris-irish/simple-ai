@@ -1764,6 +1764,7 @@ name = "simple-ai"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "matplotlib" },
     { name = "nltk" },
     { name = "notebook" },
     { name = "numpy" },
@@ -1774,6 +1775,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "matplotlib", specifier = ">=3.10.0" },
     { name = "nltk", specifier = ">=3.9.1" },
     { name = "notebook", specifier = ">=7.3.2" },
     { name = "numpy", specifier = ">=2.2.2" },
